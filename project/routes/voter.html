@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="voter.css">
+    <title>Voter Form</title>
+</head>
+<body>
+
+    <h1>Vote Now</h1>
+    <form id="contactForm" class="container">
+        <input type="text" placeholder="Voter Name" id="votername" required>
+        <select id="Votes">
+            <option value="">Select</option>
+            <option value="BJP">BJP</option>
+            <option value="MNS">MNS</option>
+            <option value="ShivShena">ShivShena</option>
+            <option value="Congress">Congress</option>
+        </select>
+        <button class="btn">Vote Now</button>
+    </form>
+
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="voteme.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgoldenrod;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    padding: 30px 20px;
+    border: 2px solid black;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#Votes{
+    width: 300px;
+    padding: 12px 0;
+    margin: 0 auto;
+    border-radius: 9px;
+}
+#votername{
+    padding: 10px 20px;
+    width: 500px;
+}
+.btn{
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(67, 67, 167);
+    color: black;
+    font-size: 20px;
+}

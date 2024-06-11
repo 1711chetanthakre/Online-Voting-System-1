@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online voting system</title>
+    <link rel="stylesheet" href="../css/index2.css">
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <ul class="right-nav">
+                <a href="./routes/home.html">home</a>
+                <a href="./routes/about.html">about</a>
+                <a href="./routes/contact.html">contact</a>
+                <a href="../index.html">Sign in</a>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <form action="#">
+            <div class="control">
+                <h1>login form</h1>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter User Name">
+            </div>
+            <div class="control">
+                <label for="psw">Password</label>
+                <input type="password" name="psw" id="psw" placeholder="Enter Password">
+            </div>
+            <div class="control">
+                <select name="role">
+
+                    <option value="1">Group</option>
+                    <option value="2">Voter</option>
+                </select><br><br>
+            </div>
+
+            <div class="control ll">
+                <!-- <input type="submit" value="Login"> -->
+                <a href="http://127.0.0.1:5501/routes/voter.html" class="logme">log in</a>
+            </div>
+        </form>
+        New User?<a href="./routes/register.html">Register here </a>
+    </div>
+
+    <!-- <script>
+    </script> -->
+    </div>
+</body>
+
+</html>
